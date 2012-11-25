@@ -1,0 +1,37 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+hr
+{
+	margin: 5px auto;
+}
+
+.block-question
+{
+	margin: 2em;
+}
+
+.block-question__headlines
+{
+}
+
+.block-question__lists
+{
+	list-style: none;
+}
+
+.block-question__lists li
+{
+	background-color: #F1E4E4;
+	margin: 5px auto;
+}
+
+.block-question__lists div
+{
+	padding: 1em;
+	border: 1px solid;
+}
