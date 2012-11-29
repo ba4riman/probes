@@ -11,9 +11,14 @@ hr
 	margin: 5px auto;
 }
 
-#accord
+a
 {
-	
+	color: #000;
+}
+
+body
+{
+	background-color: #E8E8E8;
 }
 
 .block-question
@@ -34,24 +39,29 @@ hr
 
 .block-question__lists
 {
+	color: #fff;
+	font-size: 0.7em;
+	font-weight: bold;
 	list-style: none;
 }
 
 .block-question__lists li
 {
-	background-color: #F1E4E4;
+	background-color: #4C8FFD;
+	border-radius: 3px;
 	margin: 5px auto;
+	padding: 5px;
 }
 
-.active:hover
+.block-question__lists li:hover
 {
-	background-color: #EA9F9F !important;
-	color: green;
+	background-color: #3079ED !important;
 	cursor: pointer;
 }
 
 .block-question__lists div
 {
+	background-color: #DC4A38;
+	border-radius: 3px;
 	padding: 1em;
-	border: 1px solid;
 }
