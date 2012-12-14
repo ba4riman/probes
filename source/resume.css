@@ -37,7 +37,7 @@ body
 {
 }
 
-.block-question__lists
+.block-question__list
 {
 	color: #fff;
 	font-size: 0.7em;
@@ -45,7 +45,7 @@ body
 	list-style: none;
 }
 
-.block-question__lists li
+.block-question__list .block-question__list-question
 {
 	background-color: #4C8FFD;
 	border-radius: 3px;
@@ -53,13 +53,13 @@ body
 	padding: 5px;
 }
 
-.block-question__lists li:hover
+.block-question__list .block-question__list-question:hover
 {
 	background-color: #3079ED !important;
 	cursor: pointer;
 }
 
-.block-question__lists div
+.block-question__list .block-question__list-answer
 {
 	background-color: #DC4A38;
 	border-radius: 3px;

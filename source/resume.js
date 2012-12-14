@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	$(".block-question__lists > div:not(:first)").hide();
-	$(".block-question__lists > li").click(function(){
-		$(".block-question__lists > div:visible").animate({
+	$(".block-question__list > .block-question__list-answer:not(:first)").hide();
+	$(".block-question__list > .block-question__list-question").click(function(){
+		$(".block-question__list > .block-question__list-answer:visible").animate({
 			height: "hide",
 			padding: "hide",
 		}, 500);
